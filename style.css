@@ -10,10 +10,9 @@ body {
 :root {
     --black-color: #000000;
     --text-color: #14213D;
-    --fill-color: #FCA311;
     --site-color: #E5E5E5;
-    --no-color: #FFFFFF;
 }
+
 
 
 .container {
