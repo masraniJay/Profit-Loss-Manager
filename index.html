@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>profit loss calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Profit Loss Calculator</h1>
+        <p class="description">Enter initial price, current price and quantity of stocks to know the profit/loss and
+            it's
+            percentage.</p>
+        <label for="initial-price" class="input-label">Initial Price:</label>
+        <input type="number" min="1" class="input initial-price" placeholder="Enter the initial Price" />
+        <label for="current-price" class="input-label">Current Price:</label>
+        <input type="number" min="1" class="input current-price" placeholder="Enter the Current Price" />
+        <label for="quantity" class="input-label">Quantity:</label>
+        <input type="number" min="1" class="input quantity" placeholder="Enter the quantity" />
+        <button class="btn-check">Check</button>
+        <div class="result"></div>
+    </div>
+    <hr>
+    <footer class="footer">
+        <h2 class="footer-header">about</h2>
+        <p>Enter the initial price, current price and quantity of any stock in your portfolio to know profit or loss in
+            absolute and percentage value.</p>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+
+</html>
